@@ -14,7 +14,7 @@ public class Main {
             System.out.printf("Surface Area - %.2f%n", box.calculateSurfaceArea(length, width, height));
             System.out.printf("Lateral Surface Area - %.2f%n", box.calculateLateralSurfaceArea(length, width, height));
             System.out.printf("Volume – %.2f%n", box.calculateVolume(length, width, height));
-        }catch (IllegalArgumentException exception){
+        } catch (IllegalArgumentException exception) {
             System.out.println(exception.getMessage());
         }
     }
